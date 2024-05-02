@@ -2,6 +2,7 @@
 """A file to add floor our floor"""
 import math
 
+
 def floor(n: float) -> int:
     """
     Args:

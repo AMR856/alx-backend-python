@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-from typing import List, Union
 """A file to function something that can be functioned"""
+from typing import List, Union
+
 
 
 def sum_mixed_list(mxd_lst: Union[int, float]) -> float:

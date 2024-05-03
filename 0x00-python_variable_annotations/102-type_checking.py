@@ -2,6 +2,7 @@
 """A file to function something that can be functioned"""
 from typing import List, Tuple
 
+
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """Lemme do stuff"""
     zoomed_in: List = [

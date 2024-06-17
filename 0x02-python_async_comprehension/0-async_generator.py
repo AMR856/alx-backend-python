@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Do you think?"""
 import random
-from typing import AsyncGenerator
+from typing import Generator
 import asyncio
 
 

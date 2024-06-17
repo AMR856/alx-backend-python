@@ -5,7 +5,7 @@ from typing import AsyncGenerator
 import asyncio
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     """Ashely, Look at me"""
     for i in range(10):
         yield random.uniform(0, 10)
